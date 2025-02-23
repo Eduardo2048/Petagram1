@@ -5,4 +5,12 @@
     <string name="tv_spaces">---------</string>
     <string name="imgv_hueso1">iv_Hueso1</string>
     <string name="imgv_hueso2">iv_Hueso2</string>
+    <string name="perro1">Coco</string>
+    <string name="perro2">Billy</string>
+    <string name="perro3">Tony</string>
+    <string name="perro4">Moncho</string>
+    <string name="perro5">Chicho</string>
+    <string name="perro6">Bronco</string>
+    <string name="perro7">Caro</string>
+    <string name="perro8">Pompa</string>
 </resources>

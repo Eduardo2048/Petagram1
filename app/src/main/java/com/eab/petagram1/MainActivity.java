@@ -1,5 +1,6 @@
 package com.eab.petagram1;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -41,13 +42,14 @@ public class MainActivity extends AppCompatActivity {
 
         setSupportActionBar(miToolbar);
 
-        getSupportActionBar().setIcon(R.drawable.ic_pata);
+       getSupportActionBar().setIcon(R.drawable.ic_pata);
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
-
+//        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+//        getSupportActionBar().setCustomView(R.layout.action_bar);
         getSupportActionBar().setTitle(getString(R.string.app_name));
 
 
-        setSupportActionBar(miToolbar);
+       setSupportActionBar(miToolbar);
 
 
 
@@ -97,14 +99,14 @@ public class MainActivity extends AppCompatActivity {
     private void  InicializarListaMascotas()
     {
         mascotas=new ArrayList<Mascota>();
-        mascotas.add(new Mascota(R.drawable.perro1,"Perro1",3,R.drawable.ic_hueso1));
-        mascotas.add(new Mascota(R.drawable.perro2,"Perro2",1,R.drawable.ic_hueso1));
-        mascotas.add(new Mascota(R.drawable.perro3,"Perro3",1,R.drawable.ic_hueso1));
-        mascotas.add(new Mascota(R.drawable.perro4,"Perro4",4,R.drawable.ic_hueso1));
-        mascotas.add(new Mascota(R.drawable.perro5,"Perro5",6,R.drawable.ic_hueso1));
-        mascotas.add(new Mascota(R.drawable.perro6,"Perro6",3,R.drawable.ic_hueso1));
-        mascotas.add(new Mascota(R.drawable.perro7,"Perro7",2,R.drawable.ic_hueso1));
-        mascotas.add(new Mascota(R.drawable.perro8,"Perro8",5,R.drawable.ic_hueso1));
+        mascotas.add(new Mascota(R.drawable.perro1,getResources().getString(R.string.perro1),3,R.drawable.ic_hueso1));
+        mascotas.add(new Mascota(R.drawable.perro2,getResources().getString(R.string.perro2),1,R.drawable.ic_hueso1));
+        mascotas.add(new Mascota(R.drawable.perro5,getResources().getString(R.string.perro5),6,R.drawable.ic_hueso1));
+        mascotas.add(new Mascota(R.drawable.perro3,getResources().getString(R.string.perro3),1,R.drawable.ic_hueso1));
+        mascotas.add(new Mascota(R.drawable.perro4,getResources().getString(R.string.perro4),4,R.drawable.ic_hueso1));
+        mascotas.add(new Mascota(R.drawable.perro6,getResources().getString(R.string.perro6),3,R.drawable.ic_hueso1));
+        mascotas.add(new Mascota(R.drawable.perro7,getResources().getString(R.string.perro7),2,R.drawable.ic_hueso1));
+        mascotas.add(new Mascota(R.drawable.perro8,getResources().getString(R.string.perro8),5,R.drawable.ic_hueso1));
 
 
     }
