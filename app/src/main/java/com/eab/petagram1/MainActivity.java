@@ -44,9 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
        getSupportActionBar().setIcon(R.drawable.ic_pata);
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
-//        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
-//        getSupportActionBar().setCustomView(R.layout.action_bar);
-        getSupportActionBar().setTitle(getString(R.string.app_name));
+       getSupportActionBar().setTitle(getString(R.string.app_name));
 
 
        setSupportActionBar(miToolbar);
