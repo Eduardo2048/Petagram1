@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Petagram1</string>
+    <string name="tv_nombre">Coralina</string>
+    <string name="tv_likes">5</string>
+    <string name="tv_spaces">---------</string>
+    <string name="imgv_hueso1">iv_Hueso1</string>
+    <string name="imgv_hueso2">iv_Hueso2</string>
+</resources>
